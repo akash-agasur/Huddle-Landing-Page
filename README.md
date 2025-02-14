@@ -4,7 +4,7 @@
 ### Links
 
 - Solution URL: [Github](https://github.com/akash-agasur/Huddle-Landing-Page)
-- Live Site URL: [vercel Link](https://vercel.com/akash-agasurs-projects/huddle-landing-page)
+- Live Site URL: [vercel Link](https://huddle-landing-page-virid.vercel.app/)
 
 ### ScreenShot
 
