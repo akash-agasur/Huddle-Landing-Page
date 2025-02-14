@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash Agasur | Huddle Landing Page</title>
+
+    <style>
+      :root {
+        --Very-Pale-Cyan: hsl(193, 100%, 96%);
+        --Very-Dark-Cyan: hsl(192, 100%, 9%);
+        --Grayish-Blue: hsl(208, 11%, 55%);
+        --Pink: hsl(322, 100%, 66%);
+      }
+    </style>
+    <!-- TAILWIND CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- remixicon-CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div
+      class="hero bg-no-repeat bg-cover bg-[url(/images/bg-hero-mobile.svg)]"
+    >
+      <header class="pt-6 px-4 lg:px-10 lg:pt-10">
+        <nav class="flex justify-between">
+          <img class="h-6" src="/images/logo.svg" alt="logo_image" />
+          <button
+            class="border-1 px-5 rounded-xl shadow-zinc-400 shadow-xl border-white font-bold font-[Poppins]"
+          >
+            Try It Free
+          </button>
+        </nav>
+      </header>
+      <main class="font-[Poppins] lg:flex lg:p-10 lg:mt-20">
+        <div
+          class="left h-[50vh] w-full flex flex-col items-center lg:items-start justify-center gap-10"
+        >
+          <h1
+            class="font-medium text-4xl text-center lg:text-left lg:font-bold"
+          >
+            Build The Community <br class="hidden lg:block" />
+            Your Fans Will Love
+          </h1>
+          <p
+            class="text-center text-xl lg:text-left text-[var(--Grayish-Blue)]"
+          >
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button class="bg-[var(--Pink)] px-10 py-2 rounded-3xl text-white">
+            Get Started For Free
+          </button>
+        </div>
+        <div class="right px-10">
+          <img src="/images/illustration-mockups.svg" alt="right image" />
+        </div>
+      </main>
+    </div>
+    <section
+      class="box1 m-6 pb-15 lg:mx-20 lg:flex lg:h-100 lg:flex-row-reverse lg:justify-between shadow-zinc-400 shadow-xl rounded-xl"
+    >
+      <div class="together ml-4 mt-2 lg:mr-18 lg:mt-10 lg:px-6 lg:w-[30%]">
+        <img
+          src="/images/illustration-grow-together.svg"
+          class="h-[30vh] w-[80vw] lg:h-[40vh] lg:w-[50vw]"
+          alt=""
+        />
+      </div>
+      <div
+        class="together1 flex flex-col justify-between lg:justify-center lg:w-[45%] gap-6"
+      >
+        <h1
+          class="text-3xl font-medium text-center font-[Poppins] text-[var(--Very-Dark-Cyan)] pt-6 lg:pt-10 lg:text-left lg:pl-15"
+        >
+          Grow Together
+        </h1>
+        <p
+          class="text-center text-xl text-[var(--Grayish-Blue)] lg:text-left lg:pl-15"
+        >
+          Generate meaningful discussions with your audience and build a strong,
+          loyal community. Think of the insightful conversations you miss out on
+          with a feedback form.
+        </p>
+      </div>
+    </section>
+    <section
+      class="box2 m-6 pb-15 lg:mx-20 lg:flex lg:h-100 lg:flex-row lg:justify-between shadow-zinc-400 shadow-xl mt-15 rounded-xl"
+    >
+      <div class="together ml-4 mt-2 lg:mr-18 lg:mt-10 lg:px-6 lg:w-[30%]">
+        <img
+          src="/images/illustration-flowing-conversation.svg"
+          class="h-[30vh] w-[80vw] lg:h-[40vh] lg:w-[50vw]"
+          alt=""
+        />
+      </div>
+      <div
+        class="together1 flex flex-col justify-between lg:justify-center lg:w-[45%] gap-6"
+      >
+        <h1
+          class="text-3xl font-medium text-center font-[Poppins] text-[var(--Very-Dark-Cyan)] pt-6 lg:pt-10 lg:text-left lg:pl-2"
+        >
+          Flowing Conversations
+        </h1>
+        <p
+          class="text-center text-xl text-[var(--Grayish-Blue)] lg:text-left lg:pl-2"
+        >
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow.
+        </p>
+      </div>
+    </section>
+    <section
+      class="box3 m-6 pb-15 lg:mx-20 lg:h-100 shadow-zinc-400 shadow-xl mt-15 rounded-xl lg:flex lg:flex-row-reverse lg:justify-between"
+    >
+      <div class="together ml-4 mt-2 lg:mr-18 lg:mt-10 lg:px-6 lg:w-[30%]">
+        <img
+          src="/images/illustration-your-users.svg"
+          class="h-[30vh] w-[80vw] lg:h-[40vh] lg:w-[50vw]"
+          alt=""
+        />
+      </div>
+      <div
+        class="together1 flex flex-col justify-between lg:justify-center lg:w-[45%] gap-6"
+      >
+        <h1
+          class="text-3xl font-medium text-center font-[Poppins] text-[var(--Very-Dark-Cyan)] pt-6 lg:pt-10 lg:text-left lg:pl-15"
+        >
+          Your Users
+        </h1>
+        <p
+          class="text-center text-xl text-[var(--Grayish-Blue)] lg:text-left lg:pl-15"
+        >
+          It takes no time at all to integrate Huddle with your app's
+          authentication solution. This means, once signed in to your app, your
+          users can start chatting immediately.
+        </p>
+      </div>
+    </section>
+    <section class="relative">
+      <div class="box4 m-6 lg:w-[80%] lg:left-30 rounded-xl p-8 absolute bg-white">
+        <h1
+          class=" text-[23px] lg:text-3xl font-medium text-center font-[Poppins text-[var(--Very-Dark-Cyan)]]"
+        >
+          Ready To Build Your Community?
+        </h1>
+        <button
+          class="bg-[var(--Pink)] px-12 py-3 lg:py-6 lg:px-20 rounded-3xl lg:rounded-[50px] text-white ml-15 mt-6 lg:text-xl  lg:mt-6 lg:ml-85 "
+        >
+          Get Started For Free
+        </button>
+      </div>
+    </section>
+    <footer class="h-220 lg:h-120 bg-[#00252E] mt-40">
+      <div class="huddle lg:pl-15 lg:mt-10 lg:w[50%] lg:flex">
+        <div class="f1">
+          <img
+            class="invert-[400%] pt-35 px-8 sepia-[100%] saturate-[1352%] hue-rotate-[100deg] brightness-[10%] contrast-[189%]"
+            src="/images/logo.svg"
+            alt="logo"
+          />
+          <div class="location relative">
+            <img
+              class="h-6 absolute top-4 left-8"
+              src="/images/icon-location.svg"
+              alt=""
+            />
+            <p class="px-20 py-4 text-white text-sm pr-30 font-[Open_Sans]">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Mauris nulla quam, hendrerit <br />
+              lacinia vestibulum a, ultrices quis sem.
+            </p>
+          </div>
+
+          <div class="flex">
+            <img class="px-8 pt-8" src="/images/icon-phone.svg" alt="Phone" />
+            <p class="text-white pt-8">Phone: +1-543-123-4567</p>
+          </div>
+
+          <div class="flex">
+            <img class="px-8 pt-8" src="/images/icon-email.svg" alt="email" />
+            <p class="text-white pt-8">agasurakash@gmail.com</p>
+          </div>
+          <div class="f2"></div>
+        </div>
+        <section class="text-white lg:flex-row lg:mt-40 flex flex-col pl-8 text-2xl mt-10 gap-6 lg:gap-30">
+          <div class="li1 lg:flex lg:flex-col lg:gap-6">
+            <p>About Us</p>
+            <p>What We</p>
+            <p>FAQ</p>
+          </div>
+          <div class="li2 lg:flex lg:flex-col lg:gap-6">
+            <p>Career</p>
+            <p>Blog</p>
+            <p>Contact Us</p>
+          </div>
+        </section>
+
+        <div class="icons mt-12 text-center lg:mt-50 lg:ml-40">
+          <i class="ri-facebook-circle-line text-white text-3xl"></i>
+          <i class="ri-instagram-line text-white text-3xl ml-4"></i>
+          <i class="ri-twitter-fill text-3xl ml-4 text-white"></i>
+        </div>
+        
+      </div>
+      <section class="lg:w-full lg:pr-18">
+          <p class="text-white text-center mt-5 lg:mt-0    lg:text-right lg:mr-15 lg:w-full">
+            &copy; Copyright 2018 Huddle. All rights reserved.
+          </p>
+        </section>
+    </footer>
+  </body>
+</html>
